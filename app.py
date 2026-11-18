@@ -18,7 +18,7 @@ class Todo(db.Model):
     title = db.Column(db.String(50), nullable=False)
     task = db.Column(db.String(1000), nullable=False)
     due = db.Column(db.String(100), nullable=False)
-    #hi
+    
 
 
 with app.app_context():
